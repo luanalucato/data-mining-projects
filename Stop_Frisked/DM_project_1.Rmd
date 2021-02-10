@@ -1,12 +1,4 @@
----
-title: "Data Mining Project 1"
-author: "Paichana Kularb"
-output:
-  html_document: default
-  pdf_document: default
-  word_document: default
----
-
+-
 The Data is first loaded into RStudio:
 ```{r}
 SQF = read.csv("/Users/boom/Desktop/Data mining/SQF_2016.csv",na.strings=" ",stringsAsFactors = TRUE)
